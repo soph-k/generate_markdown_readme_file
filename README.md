@@ -1,9 +1,14 @@
-# Generate Markdown Readme File
+
+<P align="center">
+#Generate Markdown Readme File
+</p>
+
+<P align="center">
 ![license](https://img.shields.io/badge/license-MIT-red)
+</p>
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/jpd61/README-generator"/>
-    <img src="https://img.shields.io/github/languages/top/jpd61/README-generator"/>
-    <img src="https://img.shields.io/github/last-commit/jpd61/README-generator"/>
+    <img src="https://img.shields.io/github/repo-size/soph-k/generate_markdown_readme_file"/>
+    <img src="https://img.shields.io/github/last-commit/soph-k/generate_markdown_readme_file"/>
 </p>
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow"/>
@@ -12,7 +17,6 @@
     <img src="https://img.shields.io/badge/-json-blue" />
     <img src="https://img.shields.io/badge/-inquirer-pink"/>
 </p>
-
 
 ## Overview
 A simple script based on node.js using the inquirer - npm to generate README markdown file based on the user's selection. 
