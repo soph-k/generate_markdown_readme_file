@@ -1,11 +1,7 @@
+# Generate Markdown Readme File
 
-<P align="center">
-#Generate Markdown Readme File
-</p>
-
-<P align="center">
 ![license](https://img.shields.io/badge/license-MIT-red)
-</p>
+
 <p align="center">
     <img src="https://img.shields.io/github/repo-size/soph-k/generate_markdown_readme_file"/>
     <img src="https://img.shields.io/github/last-commit/soph-k/generate_markdown_readme_file"/>
