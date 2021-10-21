@@ -1,11 +1,7 @@
-// Global Variables
-const badge = "";
-const licenseLink = "";
-
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-  switch (license) {
+function renderLicenseBadge(badge) {
+  switch (badge) {
     case 'MIT':
       badge = `[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
     break;
@@ -29,27 +25,22 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   switch(license) {
     case "MIT":
-      licenseLink = `
-        This project licensed under the [MIT License](https://opensource.org/licenses/MIT).`;
+      license = `This project licensed under the [MIT License](https://opensource.org/licenses/MIT).`;
     break;
     case "Apache":
-      licenseLink = `
-        This project licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).`;
+      license = `This project licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).`;
     break;
     case 'Mozilla Public License 2.0':
-      licenseLink =  `
-        This project licensed under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0).`;
+      license = `This project licensed under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0).`;
     break;
     case 'Boost Software License': 
-      licenseLink =  ` 
-      This project licensed under the [Boost Software License](https://www.boost.org/LICENSE_1_0.txt).`;
+    license = `This project licensed under the [Boost Software License](https://www.boost.org/LICENSE_1_0.txt).`;
     break;
     case 'Unlicensed':
-      licenseLink = `
-        This project is not under any kind of license.`;
+      license = `This project is not under any kind of license.`;
     break;
   }     
-  return licenseLink;
+  return license;
 }
 
 
@@ -58,7 +49,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
     # ${data.title}
-      ${renderLicenseBadge(data.license)}
+      ${renderLicenseBadge(data.badge)}
 
     ## Description
       ${data.description}

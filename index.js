@@ -12,8 +12,8 @@ const questions = [
   },
   {
     type: 'list',
-    message: 'Insert License:',
-    name: 'license',
+    message: 'Insert License Badge:',
+    name: 'badge',
     choices: ['MIT', 'Apache', 'Mozilla Public License 2.0', 'Boost Software License', 'Unlicense', 'None'],
   },
   {
@@ -65,6 +65,12 @@ const questions = [
     type: 'input',
     message: 'Insert Email Address:',
     name: 'email',
+  },
+  {
+    type: 'list',
+    message: 'Insert License:',
+    name: 'license',
+    choices: ['MIT', 'Apache', 'Mozilla Public License 2.0', 'Boost Software License', 'Unlicense', 'None'],
   },
   {
     type: 'input',
