@@ -11,6 +11,12 @@ const questions = [
     name: 'title',
   },
   {
+    type: 'list',
+    message: 'Insert License:',
+    name: 'license',
+    choices: ['MIT', 'Apache', 'Mozilla Public License 2.0', 'Boost Software License', 'Unlicense', 'None'],
+  },
+  {
     type: 'input',
     message: 'Insert Description/Overview:',
     name: 'description',
@@ -70,20 +76,21 @@ const questions = [
 
 
 // function to write README file
-function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, (err) =>    
-  err ? console.error("Error") : console.error('README.md file has been generated.')
-);
+function writeToFile (finalReadme) {
+  fs.writeFile('generatedREADME.md', finalReadme, (err) => 
+  err ? console.log("Error") : console.log('README.md file has been generated.')
+  );
 }
+
 
 // function to initialize app
 function init() {
   inquirer
-  .prompt(questions)
-  .then(response => { 
-      const finalReadme = generateMarkdown(response)
-      fs.writeToFile('generatedREADME.md', finalReadme)
-  })
+    .prompt(questions)
+    .then((response) => { 
+        const finalReadme = generateMarkdown(response);
+        writeToFile(finalReadme);
+    })
 }
 
 // Function call to initialize app

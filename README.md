@@ -43,9 +43,10 @@ Features include choosing various licenses with license bagdes included, various
 
 
 ## Features
-- Node.js 
-- Inquirer.js
 - Javascript 
+- Node.js 
+    - Inquirer.js
+
 
 
 ## Installation

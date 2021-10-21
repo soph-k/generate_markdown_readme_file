@@ -21,9 +21,6 @@ function renderLicenseBadge(license) {
     case 'Unlicensed':
       badge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) License.`
     break;
-    default:
-      badge = ''
-    break;
   }
   return badge;
 }
@@ -32,23 +29,23 @@ function renderLicenseBadge(license) {
 function renderLicenseSection(license) {
   switch(license) {
     case "MIT":
-      licenseLink = `## License 
+      licenseLink = `
         This project licensed under the [MIT License](https://opensource.org/licenses/MIT).`;
     break;
     case "Apache":
-      licenseLink = `## License 
+      licenseLink = `
         This project licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).`;
     break;
     case 'Mozilla Public License 2.0':
-      licenseLink =  `## License 
+      licenseLink =  `
         This project licensed under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0).`;
     break;
     case 'Boost Software License': 
-      licenseLink =  `## License 
+      licenseLink =  ` 
       This project licensed under the [Boost Software License](https://www.boost.org/LICENSE_1_0.txt).`;
     break;
     case 'Unlicensed':
-      licenseLink = `## 
+      licenseLink = `
         This project is not under any kind of license.`;
     break;
   }     
