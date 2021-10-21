@@ -16,6 +16,7 @@
 
 ## Overview
 A simple script based on node.js using the inquirer - npm to generate README markdown file based on the user's selection. 
+
 Features include choosing various licenses with license bagdes included, various options such as lising bugs, installing guide, table of contents etc..
 
 
