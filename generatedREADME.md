@@ -1,48 +1,48 @@
 
-    # demo project
-      [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Demo README.md
+  ![license](https://img.shields.io/badge/License-MIT-yellow))
 
-    ## Description
-      this is a demo README.md file
+## Description
+  This is an demo README.md file from the Generate Markdown README File project.
 
-    ## Table of Contents
-      - [Description](#description)
-      - [Authors](#authors)
-      - [Preview](#preview)
-      - [Features](#features)
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [Test](#test)
-      - [Contribution](#contribution)
-      - [License](#license)
-      - [Bugs](#bugs)
-    
-    ## Authors
-      sophia
-      [GitHub Profile](https://github.com/soph-k)
+## Table of Contents
+  - [Description](#description)
+  - [Authors](#authors)
+  - [Preview](#preview)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Test](#test)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Bugs](#bugs)
 
-    ## Preview
-      ./assets/images/preview.gif
+## Authors
+  Sophia
+  [GitHub Profile](https://github.com/soph-k)
 
-    ## Features
-      node.js
+## Preview
+  ./assets/images/preview.gif
 
-    ## Installation
-      none
-    
-    ## Usage
-      none
+## Features
+  Node JS
 
-    ## Test
-      none
-    
-    ## Contribute
-      None, feel free to use this project without permission.
-      For additional question feel free to reach out at: example@example.com
+## Installation
+  None
 
-    ## License
-      This project licensed under the [MIT License](https://opensource.org/licenses/MIT).
+## Usage
+  None
 
-    ## Bugs
-      none
+## Test
+  None
+
+## Contribute
+  Feel free to use this project however you would like without permission.
+  For additional question feel free to reach out at: example@gmail.com
+
+## License
+  This project licensed under the MIT License.
+
+### Bugs
+  None
   

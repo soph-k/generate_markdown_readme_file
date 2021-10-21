@@ -3,19 +3,19 @@
 function renderLicenseBadge(badge) {
   switch (badge) {
     case 'MIT':
-      badge = `[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+      badge = `![license](https://img.shields.io/badge/License-MIT-yellow))`
     break;
     case 'Apache':
-      badge = `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+      badge = `![license](https://img.shields.io/badge/License-Apache%202.0-blue)`
     break;
     case "Mozilla Public License 2.0":
-      badge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+      badge = '![license](https://img.shields.io/badge/License-MPL%202.0-brightgreen)';
     break;
     case 'Boost Software License': 
-      badge = '[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+      badge = '![license](https://img.shields.io/badge/License-Boost%201.0-lightblue)';
     break;
     case 'Unlicensed':
-      badge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) License.`
+      badge = `![license](https://img.shields.io/badge/license-Unlicense-blue).`
     break;
   }
   return badge;
@@ -25,16 +25,16 @@ function renderLicenseBadge(badge) {
 function renderLicenseSection(license) {
   switch(license) {
     case "MIT":
-      license = `This project licensed under the [MIT License](https://opensource.org/licenses/MIT).`;
+      license = `This project licensed under the MIT License.`;
     break;
     case "Apache":
-      license = `This project licensed under the [Apache 2.0 License](https://opensource.org/licenses/Apache-2.0).`;
+      license = `This project licensed under the Apache 2.0 License`;
     break;
     case 'Mozilla Public License 2.0':
-      license = `This project licensed under the [Mozilla Public License 2.0](https://opensource.org/licenses/MPL-2.0).`;
+      license = `This project licensed under the Mozilla Public License 2.0.`;
     break;
     case 'Boost Software License': 
-    license = `This project licensed under the [Boost Software License](https://www.boost.org/LICENSE_1_0.txt).`;
+    license = `This project licensed under the Boost Software License.`;
     break;
     case 'Unlicensed':
       license = `This project is not under any kind of license.`;
@@ -48,52 +48,52 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-    # ${data.title}
-      ${renderLicenseBadge(data.badge)}
+# ${data.title}
+  ${renderLicenseBadge(data.badge)}
 
-    ## Description
-      ${data.description}
+## Description
+  ${data.description}
 
-    ## Table of Contents
-      - [Description](#description)
-      - [Authors](#authors)
-      - [Preview](#preview)
-      - [Features](#features)
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [Test](#test)
-      - [Contribution](#contribution)
-      - [License](#license)
-      - [Bugs](#bugs)
-    
-    ## Authors
-      ${data.authors}
-      [GitHub Profile](https://github.com/${data.username})
+## Table of Contents
+  - [Description](#description)
+  - [Authors](#authors)
+  - [Preview](#preview)
+  - [Features](#features)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Test](#test)
+  - [Contribution](#contribution)
+  - [License](#license)
+  - [Bugs](#bugs)
 
-    ## Preview
-      ${data.preview}
+## Authors
+  ${data.authors}
+  [GitHub Profile](https://github.com/${data.username})
 
-    ## Features
-      ${data.features}
+## Preview
+  ${data.preview}
 
-    ## Installation
-      ${data.installation}
-    
-    ## Usage
-      ${data.usage}
+## Features
+  ${data.features}
 
-    ## Test
-      ${data.test}
-    
-    ## Contribute
-      ${data.contribute}
-      For additional question feel free to reach out at: ${data.email}
+## Installation
+  ${data.installation}
 
-    ## License
-      ${renderLicenseSection(data.license)}
+## Usage
+  ${data.usage}
 
-    ## Bugs
-      ${data.bugs}
+## Test
+  ${data.test}
+
+## Contribute
+  ${data.contribute}
+  For additional question feel free to reach out at: ${data.email}
+
+## License
+  ${renderLicenseSection(data.license)}
+
+### Bugs
+  ${data.bugs}
   `;
 }
 
