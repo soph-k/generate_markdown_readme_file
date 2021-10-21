@@ -40,7 +40,7 @@ Features include choosing various licenses with license bagdes included, various
 
 
 ## Preview
-![Preview](./assets/images/demo.gif)
+![Preview](./assets/images/preview.gif)
 
 
 ## Features
