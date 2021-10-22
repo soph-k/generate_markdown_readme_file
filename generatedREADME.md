@@ -18,11 +18,11 @@
   - [Bugs](#bugs)
 
 ## Authors
-  Sophia
-  [GitHub Profile](https://github.com/soph-k)
+  - Sophia
+  - [GitHub Profile](https://github.com/soph-k)
 
 ## Preview
-  ./assets/images/preview.gif
+![Preview](./assets/images/preview.gif)
 
 ## Features
   Node JS

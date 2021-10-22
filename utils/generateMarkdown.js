@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   - [GitHub Profile](https://github.com/${data.username})
 
 ## Preview
-  ![Preview](${data.preview})
+![Preview](${data.preview})
 
 ## Features
   ${data.features}
