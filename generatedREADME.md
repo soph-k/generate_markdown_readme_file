@@ -1,6 +1,6 @@
 
 # Demo README.md
-  ![license](https://img.shields.io/badge/License-MIT-yellow))
+  ![license](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Description
   This is an demo README.md file from the Generate Markdown README File project.

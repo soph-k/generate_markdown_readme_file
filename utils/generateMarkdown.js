@@ -67,11 +67,11 @@ function generateMarkdown(data) {
   - [Bugs](#bugs)
 
 ## Authors
-  ${data.authors}
-  [GitHub Profile](https://github.com/${data.username})
+  - ${data.authors}
+  - [GitHub Profile](https://github.com/${data.username})
 
 ## Preview
-  ${data.preview}
+  ![Preview](${data.preview})
 
 ## Features
   ${data.features}
