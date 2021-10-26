@@ -56,7 +56,7 @@ Before using commands please be sure Inquirer npm is installed.
 If not, run the following commands in the following order: 
 
 ```
-npm init
+npm i
 ```
 ```
 npm install inquirer
