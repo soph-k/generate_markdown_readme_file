@@ -40,7 +40,8 @@ Features include choosing various licenses with license bagdes included, various
 
 
 ## Preview
-![Preview](./assets/images/preview.gif)
+![ScreenCastify](https://watch.screencastify.com/v/H75rTFaTisw8aBrK4YH7)
+![Preview](./assets/images/demo.gif)
 
 
 ## Features
@@ -57,9 +58,6 @@ If not, run the following commands in the following order:
 
 ```
 npm i
-```
-```
-npm install inquirer
 ```
 
 
