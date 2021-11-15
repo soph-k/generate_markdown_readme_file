@@ -40,7 +40,8 @@ Features include choosing various licenses with license bagdes included, various
 
 
 ## Preview
-![ScreenCastify](https://watch.screencastify.com/v/H75rTFaTisw8aBrK4YH7)
+[ScreenCastify](https://watch.screencastify.com/v/H75rTFaTisw8aBrK4YH7)
+
 ![Preview](./assets/images/demo.gif)
 
 
