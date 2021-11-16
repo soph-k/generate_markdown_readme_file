@@ -42,9 +42,7 @@ Features include choosing various licenses with license bagdes included, various
 ## Preview
 [ScreenCastify](https://watch.screencastify.com/v/H75rTFaTisw8aBrK4YH7)
 
-<p align="center">
 ![Preview](./assets/images/demo.gif)
-</p>
 
 
 ## Features
